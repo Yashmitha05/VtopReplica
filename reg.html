@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    input,
+    textarea,
+    button {
+        border-radius: 10px;
+    }
+
+    td {
+        color: BLACK;
+    }
+
+    table {
+        background: transparent;
+        border-radius: 20px;
+        background-repeat: no-repeat;
+        box-shadow: 100px 100px 100px 100px WHITE;
+    }
+</style>
+
+<body bgcolor="white" background="">
+    <h1 align="center" style="color: BLACK;">REGISTRATION</h1>
+    <hr>
+    <br><br>
+    <form>
+        <table align="center" cellpadding="5">
+            <br>
+            <tr>
+                <td><b>NAME:</b></td>
+                <td><input type="text" name="name"></td>
+            </tr>
+            <tr>
+                <td><b>Gender</b></td>
+                <td><input type="radio" name="gender" value="male">MALE
+                    <input type="radio" name="gender" value="female">FEMALE
+                </td>
+            </tr>
+            <tr>
+                <td><b>OCCUPATION:</b></td>
+                <td><SELECT>
+                        <option name="one" value="Student" selected="yes">Student</option>
+                        <option name="TWO" value="ENGINEER">Engineer</option>
+                        <option name="three" value="Home maker">Home maker</option>
+                        <option name="four" value="Web developer">Web developer</option>
+                    </SELECT></td>
+            </tr>
+            <tr>
+                <td><b>ADDRESS</b></td>
+                <td><textarea name="address" rows="4" cols="20"></textarea></td>
+            </tr>
+            <tr>
+                <td>
+                    <b>PHONE:</b>
+                </td>
+                <td>
+                    <input type="tel" name="telephone">
+                </td>
+            </tr>
+            <tr>
+                <td><b>E-MAIL</b></td>
+                <td><input type="email" size="25" required></td>
+            </tr>
+           
+            <tr>
+                <td><b>USER-ID:</b></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><b>PASSWORD:</b></td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td><b>RETYPE-PASSWORD</b></td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button> <a style="text-decoration: none;" href="login.html">Submit</a> </button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
